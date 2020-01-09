@@ -79,7 +79,7 @@ Resources:
                 Fn::GetAtt:
                     - "CodeBuddyLambdaExecutionRole"
                     - "Arn"
-            Runtime: "nodejs6.10"
+            Runtime: "nodejs10.x"
             Timeout: 60
     LogGroup:
         Type: "AWS::Logs::LogGroup"
